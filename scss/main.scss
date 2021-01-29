@@ -1,0 +1,33 @@
+.main {
+  padding: 0 20px;
+}
+
+.card {
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -130px
+  }
+
+  &__item {
+    width: 66px;
+    height: 100px;
+    border: 1px solid #c8c8c8;
+  }
+
+  &__wrapper {
+    display: flex;
+    margin-bottom: 20px;
+
+    & .card__item {
+      //&:not(:nth-last-of-type(1)) {
+        margin-right: 20px;
+      //}
+    }
+  }
+}
+
+.card {
+
+}
